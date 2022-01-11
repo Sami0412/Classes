@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "jMwp2EnIzuO1FnzvGY38hR1xm5zq7j8Roue3FCsF3AhnvTggljjl2SxHG0Jm05tgY9POG38TK/n6o7AGl1D2DQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\samantha.williams\\source\\repos\\Classes\\Classes\\Classes.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\samantha.williams\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.22\\microsoft.netcore.app.host.win-x64.3.1.22.nupkg.sha512"
+  ],
+  "logs": []
+}
