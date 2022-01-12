@@ -32,7 +32,9 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "http://nexus.build.zuto.cloud:8081/nexus/service/local/nuget/cl4u/": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://www.myget.org/F/applicationinsights-sdk-labs/api/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
