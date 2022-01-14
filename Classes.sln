@@ -5,7 +5,9 @@ VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Classes", "Classes\Classes.csproj", "{FCB10B4D-C256-4797-8239-02587DD690D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VowelRemove", "VowelRemove\VowelRemove.csproj", "{A26430B9-6BFF-47FE-A8A6-CCBD2D448044}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VowelRemove", "VowelRemove\VowelRemove.csproj", "{A26430B9-6BFF-47FE-A8A6-CCBD2D448044}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructors", "Constructors\Constructors.csproj", "{7C6A2C48-831C-4D11-B6A7-A4ACCB4D84F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{A26430B9-6BFF-47FE-A8A6-CCBD2D448044}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A26430B9-6BFF-47FE-A8A6-CCBD2D448044}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A26430B9-6BFF-47FE-A8A6-CCBD2D448044}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C6A2C48-831C-4D11-B6A7-A4ACCB4D84F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C6A2C48-831C-4D11-B6A7-A4ACCB4D84F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C6A2C48-831C-4D11-B6A7-A4ACCB4D84F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C6A2C48-831C-4D11-B6A7-A4ACCB4D84F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
