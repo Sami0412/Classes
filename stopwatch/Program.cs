@@ -6,7 +6,7 @@ namespace stopwatch
     public class Stopwatch
     {
         public static DateTime StartTime { get; private set; }
-        public DateTime EndTime { get; private set; }
+        public static DateTime EndTime { get; private set; }
 
         public static DateTime Start()
         {
@@ -14,7 +14,7 @@ namespace stopwatch
             return StartTime;
         }
 
-        public DateTime End()
+        public static DateTime Stop()
         {
             EndTime = DateTime.Now;
             return EndTime;
@@ -29,6 +29,15 @@ namespace stopwatch
             {
                 Stopwatch.Start();
             }
+
+            Console.WriteLine("Enter 'stop' to stop the stopwatch: ");
+            if (Console.ReadLine() == "stop")
+            {
+                Stopwatch.Stop();
+            }
+
+            TimeSpan duration = Stopwatch.EndTime - Stopwatch.StartTime;
+            Console.WriteLine(duration);
         }
     }
 }
