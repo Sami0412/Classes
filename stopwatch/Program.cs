@@ -1,43 +1,28 @@
 ﻿using System;
 using System.Dynamic;
 
-namespace stopwatch
+namespace Stopwatch
 {
-    public class Stopwatch
-    {
-        public static DateTime StartTime { get; private set; }
-        public static DateTime EndTime { get; private set; }
-
-        public static DateTime Start()
-        {
-            StartTime = DateTime.Now;
-            return StartTime;
-        }
-
-        public static DateTime Stop()
-        {
-            EndTime = DateTime.Now;
-            return EndTime;
-        }
-    }
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter 'start' to start the stopwatch: ");
-            if (Console.ReadLine() == "start")
-            {
-                Stopwatch.Start();
-            }
+            var stopwatch = new Stopwatch();
+            var input = "";
 
-            Console.WriteLine("Enter 'stop' to stop the stopwatch: ");
-            if (Console.ReadLine() == "stop")
+            while (input != "x")
             {
-                Stopwatch.Stop();
+                Console.WriteLine("Enter 'start' to start the stopwatch, 'stop' to stop the stopwatch, or 'x' to exit: ");
+                input = Console.ReadLine();
+                if (input == "start")
+                {
+                    stopwatch.Start();
+                }
+                if (input == "stop")
+                {
+                    Console.WriteLine(stopwatch.Stop());
+                }
             }
-
-            TimeSpan duration = Stopwatch.EndTime - Stopwatch.StartTime;
-            Console.WriteLine(duration);
         }
     }
 }
