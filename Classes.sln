@@ -21,6 +21,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Indexers", "Indexers\Indexe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stopwatch", "stopwatch\Stopwatch.csproj", "{EEF352C9-3384-4B5F-AE75-F0458B1394C3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackOverflowPost", "StackOverflowPost\StackOverflowPost.csproj", "{F254AAA5-3D31-40D3-B093-11376B488A63}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{EEF352C9-3384-4B5F-AE75-F0458B1394C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EEF352C9-3384-4B5F-AE75-F0458B1394C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EEF352C9-3384-4B5F-AE75-F0458B1394C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F254AAA5-3D31-40D3-B093-11376B488A63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F254AAA5-3D31-40D3-B093-11376B488A63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F254AAA5-3D31-40D3-B093-11376B488A63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F254AAA5-3D31-40D3-B093-11376B488A63}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

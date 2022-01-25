@@ -4,13 +4,26 @@ namespace Stopwatch
 {
     public class Stopwatch
     {
-        private DateTime StartTime;
-        private DateTime EndTime;
+        public DateTime StartTime { get; private set; }
+        public DateTime EndTime { get; private set; }
 
         public DateTime Start()
         {
-            StartTime = DateTime.Now;
-            return StartTime;
+            try
+            {
+                if (StartTime == DateTime.MinValue)
+                {
+                    StartTime = DateTime.Now;
+                    return StartTime;
+                }
+
+                throw new InvalidOperationException("Stopwatch already started!");
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                throw;
+            }
         }
 
         public TimeSpan Stop()
